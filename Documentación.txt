@@ -1,0 +1,5 @@
+Para iniciar el servidor tcp 
+
+ngrok tcp 5555
+
+
