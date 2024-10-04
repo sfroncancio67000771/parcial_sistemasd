@@ -1,0 +1,18 @@
+Pasos para poner una maquina virtual para conexión por ssh
+
+# Para distribuciones basadas en Debian/Ubuntu
+sudo apt update
+sudo apt install openssh-server
+
+#Iniciar servicio
+sudo systemctl start ssh
+
+#Para que arranque siempre solo 
+sudo systemctl enable ssh
+
+#Ver el estado
+sudo systemctl status ssh
+
+#Configuración de salida firewall
+sudo ufw allow ssh
+sudo ufw allow 22

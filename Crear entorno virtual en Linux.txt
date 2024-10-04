@@ -1,0 +1,17 @@
+# Instalar Python y venv (si es necesario)
+sudo apt update
+sudo apt install python3 python3-venv python3-pip
+
+# Crear el entorno virtual
+cd /ruta/a/tu/proyecto
+python3 -m venv nombre_del_entorno
+
+# Activar el entorno virtual
+source nombre_del_entorno/bin/activate
+
+# Instalar dependencias
+pip install nombre_del_paquete
+
+# Desactivar el entorno virtual
+deactivate
+
